@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+presidio-analyzer = "*"
+presidio-anonymizer = "*"
+gensim = "*"
+mallet = "*"
+scikit-learn = "*"
+matplotlib = "*"
+requests = "*"
+nltk = "*"
+spacy = "*"
+transformers = "*"
+ckanapi = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

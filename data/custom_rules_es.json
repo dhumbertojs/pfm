@@ -1,0 +1,14 @@
+{
+  "rules": [
+    {
+      "name": "curp_pattern",
+      "pattern": "\\b[a-zA-Z0-9]+{18}",
+      "entity_type": "CUSTOM_ENTITY_TYPE"
+    },
+    {
+      "name": "rfc_pattern",
+      "pattern": "/^([A-ZÑ&]{3,4}) ?(?:- ?)?(\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\d|3[01])) ?(?:- ?)?([A-Z\d]{2})([A\d])$/",
+      "entity_type": "CUSTOM_ENTITY_TYPE"
+    }
+  ]
+}
